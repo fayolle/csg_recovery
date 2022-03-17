@@ -1,12 +1,12 @@
 # Point-cloud to CSG 
-Simple implementation of the genetic programming code used in this [https://doi.org/10.1016/j.cad.2016.01.001](paper) to generate a CSG expression from a 3D point-cloud. 
+Simple implementation of the genetic programming code used in this [paper](https://doi.org/10.1016/j.cad.2016.01.001) to generate a CSG expression from a 3D point-cloud. 
 
 
 ## How to compile
 Compile the segmentation program (based on Ransac) in the subdirectory 'segmentation' and the CSG tree search program (based on genetic programming) in the subdirectory 'gp'. 
 Both programs rely on the library boost. 
 
-The code in the subdirectory 'segmentation' is a modified version of the code from the efficient RANSAC [https://doi.org/10.1111/j.1467-8659.2007.01016.x](paper).
+The code in the subdirectory 'segmentation' is a modified version of the code from the efficient RANSAC [paper](https://doi.org/10.1111/j.1467-8659.2007.01016.x).
 
 
 ## How to run
@@ -48,11 +48,11 @@ The output file is in 'out/test_tree.dot'. It can be processed with the 'dot' co
 
 
 ## Additional notes
-Obviously, the results depend a lot on the list of primitives passed to the CSG tree search. The version provided here uses [https://doi.org/10.1111/j.1467-8659.2007.01016.x](RANSAC). There are several ways to improve it such as, for example: Section 4.1 of this [https://doi.org/10.1145/3272127.3275006](paper), this [https://doi.org/10.5220/0008870600380048](paper) or this [https://doi.org/10.5220/0010297100750084](one). 
+Obviously, the results depend a lot on the list of primitives passed to the CSG tree search. The version provided here uses [RANSAC](https://doi.org/10.1111/j.1467-8659.2007.01016.x). There are several ways to improve it such as, for example: Section 4.1 of this [paper](https://doi.org/10.1145/3272127.3275006), this [paper](https://doi.org/10.5220/0008870600380048) or this [one](https://doi.org/10.5220/0010297100750084). 
 
 
 ## Reference 
-Link to the [https://doi.org/10.1016/j.cad.2016.01.001](paper) where the approach is described and the bibtex entry
+Link to the [paper](https://doi.org/10.1016/j.cad.2016.01.001) where the approach is described and the bibtex entry
 ```
 @article{pc2csg2016,
 title = {An evolutionary approach to the extraction of object construction trees from 3D point clouds},
