@@ -1,0 +1,8 @@
+bin
+experiments*
+gp/.vs
+gp/CMakeSettings.json
+gp/build
+segmentation/.vs
+segmentation/CMakeSettings.json
+segmentation/build
