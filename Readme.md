@@ -77,6 +77,6 @@ volume = {74},
 pages = {1-17},
 year = {2016},
 issn = {0010-4485},
-author = {Pierre-Alain Fayolle and Alexander Pasko},
+author = {Fayolle, Pierre-Alain and Pasko, Alexander},
 }
 ```
